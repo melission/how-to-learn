@@ -24,6 +24,22 @@
   /* выше установили ограничения для секции */
 }
 
+.content {
+  /*background-color: gold;*/
+  margin: 100px auto;
+}
+
+.description__two-columns {
+  display: flex;
+  width: 80%;
+  /*min-width: 784px;*/
+  padding: 0;
+  margin: auto;
+  /*border: 2px solid lawngreen;*/
+  justify-content: space-between;
+  /*box-sizing: border-box;*/
+}
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
@@ -97,9 +113,39 @@
   z-index: 5;
 }
 
-.desciption__text {
+.description__text {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
 }
 
+.two-columns__brief {
+  width: 175px;
+  /*display: flex;*/
+  align-content: end;
+  /*border: 2px solid lightsalmon;*/
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.brief__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.main-text__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.paragraph__span {
+  color: #2f80ed;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
