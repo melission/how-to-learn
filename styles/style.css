@@ -19,6 +19,7 @@
   display: flex;
   position: relative;
   box-sizing: border-box;
+  overflow: hidden;
   background-color: #f2f2f2;
   /*border: 3px solid darkslategray;*/
   /* выше установили ограничения для секции */
@@ -124,6 +125,11 @@
   font-weight: normal;
 }
 
+.picture {
+  width: 100%;
+  height: 100%;
+}
+
 .two-columns__brief {
   width: 175px;
   /*display: flex;*/
@@ -175,7 +181,7 @@
 }
 
 .digits__flex {
-  border: 3px solid rosybrown;
+  /*border: 3px solid rosybrown;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -186,7 +192,7 @@
 .flex__card {
   margin-top: 60px;
   width: 250px;
-  border: 2px solid gray;
+  /*border: 2px solid gray;*/
 }
 
 .card__title {
