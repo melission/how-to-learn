@@ -35,6 +35,16 @@
   margin: 100px auto;
 }
 
+.feynman {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /*border: 3px solid darkturquoise;*/
+  margin-top: 100px;
+  height: 890px;
+  box-sizing: border-box;
+}
+
 .description__two-columns {
   display: flex;
   width: 80%;
@@ -214,4 +224,46 @@
 
 .card__footer {
   margin: 20px auto 0;
+}
+
+.feynman__title {
+  /*border: 2px solid crimson;*/
+  width: 648px;
+  margin: 100px auto 70px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.feynman__subtitle {
+  /*border: 2px solid forestgreen;*/
+  margin: 0 auto auto;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__photo {
+  /*border: 2px solid brown;*/
+  position: absolute;
+  width: 867px;
+  height: 637px;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.feynman__link {
+  /*border: 2px solid darkkhaki;*/
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
 }
