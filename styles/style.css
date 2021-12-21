@@ -29,6 +29,11 @@
   margin: 100px auto;
 }
 
+.digits {
+  /*border: 3px solid firebrick;*/
+  margin: 100px auto;
+}
+
 .description__two-columns {
   display: flex;
   width: 80%;
@@ -148,4 +153,59 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
+}
+
+.digits__title {
+  /*border: 2px solid lightsalmon;*/
+  width: 60%;
+  margin: auto auto 20px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.digits__paragraph {
+  margin: auto;
+  text-align: center;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.digits__flex {
+  border: 3px solid rosybrown;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto auto 100px;
+  width: 1100px;
+}
+
+.flex__card {
+  margin-top: 60px;
+  width: 250px;
+  border: 2px solid gray;
+}
+
+.card__title {
+  margin: 0 auto 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card__main-text {
+  margin: 0;
+}
+
+.card-text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.card__footer {
+  margin: 20px auto 0;
 }
