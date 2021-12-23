@@ -45,6 +45,16 @@
   box-sizing: border-box;
 }
 
+.footer {
+  border: 2px solid red;
+  /*display: flex;*/
+  flex-basis: 711px;
+  width: 90%;
+  margin: 60px auto 40px;
+  min-height: 350px;
+}
+
+
 .description__two-columns {
   display: flex;
   width: 80%;
@@ -75,7 +85,7 @@
   margin-top: 80px;
 }
 
-.header__logo {
+.logo {
   margin-left: 64px;
   margin-top: 30px;
   width: 183px;
@@ -266,4 +276,47 @@
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
+}
+
+.footer__columns {
+  border: 2px solid black;
+  display: flex;
+}
+
+.column__content-copyright {
+  display: flex;
+  border: 2px solid grey;
+  width: 50%;
+}
+
+.column__content-info {
+  border: 2px solid rosybrown;
+  width: 25%;
+}
+
+.content-social__unorder-list {
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.column__content-social {
+  border: 2px solid indianred;
+  width: 25%;
+}
+
+.bullet-point__logo {
+  width: 16px;
+  height: 16px;
+}
+
+.footer__text {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.footer__logo_yandex {
+  height: 35px;
+  width: 183px;
 }
